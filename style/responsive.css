@@ -1,0 +1,32 @@
+@media screen and (max-width:700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .botaoAssistir, .botaoInfo {
+        margin-top: 5px;
+        width: 285px;
+        height:60px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .botao2 {
+        width:100px;
+        height:45px;
+    }
+    .descricaoSinopse, .descricaoInfo, .generoTag, .generos {
+        font-size: 12px;
+    }
+    .imgLogo {
+        max-width: 400px;
+        position:absolute;
+    }
+
+}
